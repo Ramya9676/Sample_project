@@ -23,7 +23,7 @@ jobs:
         with: 
           organization: ‘ramya’ 
           projectKey: ‘gitactions’ 
-          login: ${{ secrets.codescan_token }} 
+          login: ${{ secrets.GitAction }} 
           generateSarifFile: true 
           failOnRedQualityGate: true 
       - name: Run Codescan On PR 
